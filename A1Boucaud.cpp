@@ -56,7 +56,7 @@ int main() {
 
     std::ofstream myfile;
     myfile.open ("primes.txt");
-    myfile << count << sum << cpu_time_used << "\n";
+    myfile << count << " " << sum << " " << cpu_time_used << "\n";
     myfile.close();
 
     return 0;
